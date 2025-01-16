@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+
+  <meta name="description"
+    content="¡Bienvenido a mi portafolio! Explora mis proyectos, habilidades y pasión por el desarrollo web. ¡Gracias por visitar!." />
+
+
+  <meta itemprop="name" content="Francisca Paiva's Portfolio">
+  <meta itemprop="description"
+    content="¡Bienvenido a mi portafolio! Explora mis proyectos, habilidades y pasión por el desarrollo web. ¡Gracias por visitar!.">
+
+  <meta itemprop="image" content="assets/images/sharing-card.png">
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Francisca Paiva's Portfolio">
+  <meta name="twitter:description"
+    content="¡Bienvenido a mi portafolio! Explora mis proyectos, habilidades y pasión por el desarrollo web. ¡Gracias por visitar!.">
+
+
+
+  <link rel="shortcut icon" href="assets/images/OIP.jpeg" type="image/png" />
+
+
+  <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+
+
+  <title>Portafolio de Francisca Paiva</title>
+</head>
+
+<body>
+
+  <script>
+    const theme = localStorage.getItem("theme") || "dark";
+    document.body.classList.add(theme);
+  </script>
+
+  <header class="header">
+
+    <div class="menu-btn-container">
+      <div class="container">
+        <button type="button" class="menu-btn">Menu</button>
+      </div>
+    </div>
+
+    <nav class="nav hidden">
+      <ol class="nav-items">
+      <!--  <li class="nav-item"><a href="#"></a>Inicio</li> -->
+        <li class="nav-item"><a href="#work">Proyectos</a></li>
+        <li class="nav-item"><a href="#skills">Mis habilidades</a></li>
+        <li class="nav-item">
+          <a href="#contact" data-focused="last-focused">Contacto</a>
+        </li>
+      </ol>
+    </nav>
+
+    <div class="container">
+      <div class="header-textbox">
+        <h1 class="h1">
+          Hola soy Francisca Paiva<br />
+          Full stack python trainee
+        </h1>
+
+        <!-- Add a small introductory paragraph about yourself -->
+        <p class="header-text">
+          Apasionada por el desarrollo digital, con habilidades en programación y
+          diseño, y un enfoque en el aprendizaje constante.
+        </p>
+
+        <div class="header-btns">
+          <a href="#contact" class="btn btn-cta">Contrátame</a>
+          <a href="#work" class="btn btn-secondary">Ver mi trabajo</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  
+
+    <section class="work">
+      <div class="container">
+        <h2 class="h2" id="work">Proyectos seleccionados</h2>
+        <div class="work-boxes">
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Tienda de fábrica de Helados</h3>
+              <!-- Add small description of your project  -->
+              <p class="work-text">
+                Desarrollo de plantilla de comercio de productos
+                
+              </p>
+              <!-- Add technologies you used to build the project -->
+              <ol class="work-technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PYTHON</li>
+              </ol>
+
+              <div class="work-links">
+              
+                <a href="https://github.com/FRANPaivaf/helados-crema" target="_blank" rel="noopener" class="link">Explorar este proyecto
+                </a>
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                <a href="https://github.com/FRANPaivaf" target="_blank" rel="noopener" title="Source code">
+                  <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
+                </a>
+              </div>
+            </div>
+
+            <!-- Update img src and alt attribute  -->
+
+            <picture class="work-img">
+              <img loading="lazy" src="assets/images/work/helados.png" alt="helados.png" />
+            </picture>
+          </div>
+          <div class="work-box">
+            <div class="work-textbox">
+              <!-- Add your project title here -->
+              <h3 class="h3">Proyecto paseadores de mascotas</h3>
+              <!-- Add small description of your project  -->
+
+              <p class="work-text">Plantilla de servicios y proveedores de paseos para mascotas.</p>
+              <ol class="work-technologies">
+                <li>PYTHON</li>
+                <li>DJANGO</li>
+                <li>CSS</li>
+              </ol>
+              <div class="work-links">
+                <!-- Add url of project in href attribute -->
+                <a href="https://github.com/FRANPaivaf/proyecto_pets" target="_blank" rel="noopener" class="link">Explorar proyecto</a>
+
+                <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                <a href="https://github.com/FRANPaivaf/proyecto_pets" target="_blank" rel="noopener" title="Source code">
+                  <img src="assets/images/social-links/github.svg" alt="GitHub" loading="lazy" />
+                </a>
+              </div>
+            </div>
+            
+            <picture class="work-img">
+              <img loading="lazy" src="assets/images/work/paseadores.png" alt="paseador.png" />
+            </picture>
+          </div>
+      
+    </section>
+
+
+  
+
+          
+        </div>
+      </div>
+    </section>
+
+
+    <section class="skills">
+      <div class="container">
+        <h2 class="h2" id="skills">Mis herramientas</h2>
+        <div class="skills-imgs">
+            
+          <img src="assets/images/skills/shell.webp" alt="Shell" class="skills-img" loading="lazy" title="Shell">
+          <img src="assets/images/skills/th.jpeg" alt="Python" class="skills-img" loading="Python"
+            title="Python">
+          <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
+          <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+          <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+
+  
+
+    <section class="contact">
+      <div class="container">
+        <h2 class="h2" id="contact">Enviar mensaje</h2>
+        <div class="contact-content">
+          <div class="contact-textbox">
+          
+            <p class="contact-text">
+              Soy programador web junior especializado en Python, utilizando frameworks como Django para desarrollar aplicaciones web. Me enfoco en el desarrollo back-end, gestionando bases de datos, optimizando el 
+              rendimiento y aprendiendo constantemente nuevas tecnologías para mejorar mis habilidades y contribuir a proyectos innovadores.
+            </p>
+            <p class="contact-text">
+              Estoy en un proceso continuo de crecimiento, ampliando y perfeccionando mis conocimientos.
+            </p>
+            <!-- Replace src with your signatures and name -->
+            <!-- <img src="assets/images/signatures.png" alt="Syed Mohsin" class="signatures" loading="lazy" /> -->
+          </div>
+          <form method="POST" netlify class="contact-form">
+            <div class="form-field">
+              <label for="name">Nombre</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required inputmode="email" />
+            </div>
+            <div class="form-field">
+              <label for="message">¿Cómo puedo ayudarle?</label>
+              <textarea name="message" id="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-cta">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        
+        <nav>
+          <ol class="footer-links">
+            <li class="footer-link">
+              <a title="GitHub" href="https://github.com/FRANPaivaf" target="_blank" rel="noopener"><img
+                  loading="lazy" src="assets/images/social-links/github.svg" alt="GitHub" /></a>
+            </li>
+        
+        </ol>
+        </nav>
+        <p class="footer-text">
+          &copy; 2024 - Template designed & developed by <a target="_blank" rel="noopener"
+            href="https://github.com/FRANPaivaf">Francisca Paiva.</a>
+        </p>
+        <label class="theme-switch" for="theme-switch">
+          <span>Dark Theme</span>
+          <input type="checkbox" id="theme-switch" role="switch" />
+        </label>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
